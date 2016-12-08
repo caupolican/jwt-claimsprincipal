@@ -2,7 +2,11 @@
   "name": "jwt-claimsprincipal",
   "version": "1.0.0",
   "description": "type script implementation of the ms ClaimsPrincipal to parse claims from a jwt token.",
-  "main": "index.js",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +23,26 @@
   "bugs": {
     "url": "https://github.com/caupolican/jwt-claimsprincipal/issues"
   },
-  "homepage": "https://github.com/caupolican/jwt-claimsprincipal#readme"
+  "homepage": "https://github.com/caupolican/jwt-claimsprincipal#readme",
+  "dependencies": {
+    "typescript":"^1.8.10",
+    "typings":"^1.3.0"
+  },
+   "devDependencies": {
+    "gulp": "~3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "~2.2.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-rimraf": "*",
+    "gulp-strip-debug": "*",
+    "gulp-tslint": "~1.1.0",
+    "gulp-tslint-stylish": "~1.0.1",
+    "gulp-typedoc": "^1.2.1",
+    "gulp-typescript": "~2.8.0",
+    "gulp-uglify": "~0.2.1",
+    "gulp-util": "~2.2.14",
+    "merge2": "*",
+    "path": "~0.4.9",
+    "run-sequence": "^1.1.5"
+  }
 }
