@@ -1,0 +1,23 @@
+{
+  "name": "jwt-claimsprincipal",
+  "version": "1.0.0",
+  "description": "type script implementation of the ms ClaimsPrincipal to parse claims from a jwt token.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caupolican/jwt-claimsprincipal.git"
+  },
+  "keywords": [
+    "jwt",
+    "claims"
+  ],
+  "author": "caupolican@microsuave.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caupolican/jwt-claimsprincipal/issues"
+  },
+  "homepage": "https://github.com/caupolican/jwt-claimsprincipal#readme"
+}
